@@ -9,10 +9,15 @@ This helper does two things:
    binaries for the excluded platforms and prunes the local LFS cache.
 
 It is safe to rerun; settings are idempotent and cleanup is optional.
+
+Usage:
+    configure-lfs-skip-smudge.py          # Configure for current platform
+    configure-lfs-skip-smudge.py --undo   # Undo all LFS configuration
 """
 
 from __future__ import annotations
 
+import argparse
 import os
 import platform
 import re
@@ -170,12 +175,53 @@ def cleanup(exclude_dirs: list[str]) -> None:
     run(["git", "lfs", "prune", "--force", "--recent=0"])
 
 
+def undo_lfs_configuration() -> None:
+    """Undo all LFS configuration changes."""
+    print("Undoing Git LFS configuration...\n")
+
+    # Reinstall git-lfs without --skip-smudge
+    print("Reinstalling git-lfs without skip-smudge...")
+    run(["git", "lfs", "install", "--local", "--force"], check=True)
+
+    # Remove fetchinclude settings
+    existing_includes = git_config_get_all("lfs.fetchinclude")
+    if existing_includes:
+        print("Removing lfs.fetchinclude settings...")
+        for value in existing_includes:
+            unset_value("lfs.fetchinclude", value)
+
+    # Remove fetchexclude settings
+    existing_excludes = git_config_get_all("lfs.fetchexclude")
+    if existing_excludes:
+        print("Removing lfs.fetchexclude settings...")
+        for value in existing_excludes:
+            unset_value("lfs.fetchexclude", value)
+
+    print("\nConfiguration reset complete!")
+    print("\nTo download all LFS files, run:")
+    print("  git lfs pull")
+
+
 def main() -> None:
+    parser = argparse.ArgumentParser(
+        description="Configure Git LFS to keep only current platform's binaries"
+    )
+    parser.add_argument(
+        "--undo",
+        action="store_true",
+        help="Undo all LFS configuration changes",
+    )
+    args = parser.parse_args()
+
     ensure_tool("git")
     ensure_tool("git-lfs")
 
     root = repo_root()
     os.chdir(root)
+
+    if args.undo:
+        undo_lfs_configuration()
+        return
 
     target = detect_target()
     print(f"Detected platform: {target}\n")
@@ -204,8 +250,7 @@ def main() -> None:
     print("  git lfs ls-files")
     print()
     print("To undo these settings:")
-    print("  git config --local --unset-all lfs.fetchinclude")
-    print("  git config --local --unset-all lfs.fetchexclude")
+    print("  ./configure-lfs-skip-smudge.py --undo")
 
 
 if __name__ == "__main__":
