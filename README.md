@@ -44,38 +44,38 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | [fzf](https://github.com/junegunn/fzf) | junegunn/fzf | 0.66.1 | Oct 28, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [git-lfs](https://github.com/git-lfs/git-lfs) | git-lfs/git-lfs | 3.7.1 | Oct 23, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [hyperfine](https://github.com/sharkdp/hyperfine) | sharkdp/hyperfine | 1.19.0 | Oct 08, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [lazygit](https://github.com/jesseduffield/lazygit) | jesseduffield/lazygit | 0.55.1 | Oct 08, 2025 | linux (amd64, arm64) • macos (arm64) |
+| [lazygit](https://github.com/jesseduffield/lazygit) | jesseduffield/lazygit | 0.56.0 | Nov 04, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [micromamba](https://github.com/mamba-org/micromamba-releases) | mamba-org/micromamba-releases | 2.3.3-0 | Oct 23, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [rg](https://github.com/BurntSushi/ripgrep) | BurntSushi/ripgrep | 15.1.0 | Oct 23, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [starship](https://github.com/starship/starship) | starship/starship | 1.24.0 | Oct 28, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.9.5 | Oct 23, 2025 | linux (amd64, arm64) • macos (arm64) |
+| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.9.7 | Nov 04, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [yazi](https://github.com/sxyazi/yazi) | sxyazi/yazi | 25.5.31 | Oct 08, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) | ajeetdsouza/zoxide | 0.9.8 | Oct 08, 2025 | linux (amd64, arm64) • macos (arm64) |
 
 ## 📊 Tool Statistics
 
-<div align='center'><h3>📦 53 Tools | 💾 204.1 MB Total Size</h3></div>
+<div align='center'><h3>📦 53 Tools | 💾 577.93 MB Total Size</h3></div>
 
 | Tool | Total Size | Avg Size per Architecture |
 | :--- | :-------- | :------------------------ |
-| uv | 40.09 MB | 13.36 MB |
-| atuin | 30.52 MB | 10.17 MB |
+| uv | 134.32 MB | 44.77 MB |
+| atuin | 103.0 MB | 34.33 MB |
+| lazygit | 60.28 MB | 20.09 MB |
+| micromamba | 49.44 MB | 16.48 MB |
+| yazi | 41.85 MB | 13.95 MB |
+| git-lfs | 35.92 MB | 11.97 MB |
 | starship | 29.87 MB | 9.96 MB |
-| lazygit | 20.44 MB | 6.81 MB |
-| micromamba | 13.19 MB | 4.4 MB |
+| direnv | 22.62 MB | 7.54 MB |
+| delta | 18.64 MB | 6.21 MB |
+| bat | 17.96 MB | 5.99 MB |
+| rg | 13.39 MB | 4.46 MB |
 | fzf | 12.59 MB | 4.2 MB |
-| yazi | 12.4 MB | 4.13 MB |
-| git-lfs | 11.93 MB | 3.98 MB |
-| direnv | 7.53 MB | 2.51 MB |
-| delta | 5.76 MB | 1.92 MB |
-| bat | 5.57 MB | 1.86 MB |
-| rg | 3.86 MB | 1.29 MB |
-| duf | 2.94 MB | 1002.08 KB |
-| fd | 2.83 MB | 967.4 KB |
-| dust | 2.55 MB | 870.86 KB |
-| hyperfine | 1.1 MB | 374.08 KB |
-| zoxide | 945.23 KB | 315.08 KB |
-| eza | 264.0 B | 132.0 B |
+| fd | 10.12 MB | 3.37 MB |
+| duf | 8.86 MB | 2.95 MB |
+| dust | 8.09 MB | 2.7 MB |
+| eza | 4.25 MB | 2.12 MB |
+| hyperfine | 3.6 MB | 1.2 MB |
+| zoxide | 3.12 MB | 1.04 MB |
 
 ## 💻 Shell Integration
 
@@ -228,6 +228,6 @@ tools:
 
 ## ℹ️ Additional Information
 
-* This README was automatically generated on Oct 28, 2025
-* Current platform: **macos/arm64**
+* This README was automatically generated on Nov 04, 2025
+* Current platform: **linux/amd64**
 * For more information on dotbins, visit https://github.com/basnijholt/dotbins
