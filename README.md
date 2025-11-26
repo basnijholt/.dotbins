@@ -1,6 +1,6 @@
 # 🛠️ dotbins Tool Collection
 
-[![dotbins](https://img.shields.io/badge/powered%20by-dotbins-blue.svg?style=flat-square)](https://github.com/basnijholt/dotbins) [![Version](https://img.shields.io/badge/version-2.4.0-green.svg?style=flat-square)](https://github.com/basnijholt/dotbins/releases)
+[![dotbins](https://img.shields.io/badge/powered%20by-dotbins-blue.svg?style=flat-square)](https://github.com/basnijholt/dotbins) [![Version](https://img.shields.io/badge/version-2.5.0-green.svg?style=flat-square)](https://github.com/basnijholt/dotbins/releases)
 
 This directory contains command-line tools automatically managed by [dotbins](https://github.com/basnijholt/dotbins).
 
@@ -41,35 +41,33 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | [dust](https://github.com/bootandy/dust) | bootandy/dust | 1.2.3 | Oct 08, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [eza](https://github.com/eza-community/eza) | eza-community/eza | 0.23.4 | Oct 08, 2025 | linux (amd64, arm64) |
 | [fd](https://github.com/sharkdp/fd) | sharkdp/fd | 10.3.0 | Oct 08, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [fzf](https://github.com/junegunn/fzf) | junegunn/fzf | 0.66.1 | Oct 28, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [git-lfs](https://github.com/git-lfs/git-lfs) | git-lfs/git-lfs | 3.7.1 | Oct 23, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [hyperfine](https://github.com/sharkdp/hyperfine) | sharkdp/hyperfine | 1.19.0 | Oct 08, 2025 | linux (amd64, arm64) • macos (arm64) |
+| [fzf](https://github.com/junegunn/fzf) | junegunn/fzf | 0.67.0 | Nov 26, 2025 | linux (amd64, arm64) • macos (arm64) |
+| [hyperfine](https://github.com/sharkdp/hyperfine) | sharkdp/hyperfine | 1.20.0 | Nov 26, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [lazygit](https://github.com/jesseduffield/lazygit) | jesseduffield/lazygit | 0.56.0 | Nov 04, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [micromamba](https://github.com/mamba-org/micromamba-releases) | mamba-org/micromamba-releases | 2.3.3-0 | Oct 23, 2025 | linux (amd64, arm64) • macos (arm64) |
+| [micromamba](https://github.com/mamba-org/micromamba-releases) | mamba-org/micromamba-releases | 2.4.0-0 | Nov 26, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [rg](https://github.com/BurntSushi/ripgrep) | BurntSushi/ripgrep | 15.1.0 | Oct 23, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [starship](https://github.com/starship/starship) | starship/starship | 1.24.0 | Oct 28, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.9.9 | Nov 14, 2025 | linux (amd64, arm64) • macos (arm64) |
+| [starship](https://github.com/starship/starship) | starship/starship | 1.24.1 | Nov 26, 2025 | linux (amd64, arm64) • macos (arm64) |
+| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.9.13 | Nov 26, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [yazi](https://github.com/sxyazi/yazi) | sxyazi/yazi | 25.5.31 | Oct 08, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) | ajeetdsouza/zoxide | 0.9.8 | Oct 08, 2025 | linux (amd64, arm64) • macos (arm64) |
 
 ## 📊 Tool Statistics
 
-<div align='center'><h3>📦 53 Tools | 💾 576.92 MB Total Size</h3></div>
+<div align='center'><h3>📦 50 Tools | 💾 543.04 MB Total Size</h3></div>
 
 | Tool | Total Size | Avg Size per Architecture |
 | :--- | :-------- | :------------------------ |
-| uv | 133.32 MB | 44.44 MB |
+| uv | 135.79 MB | 45.26 MB |
 | atuin | 103.0 MB | 34.33 MB |
 | lazygit | 60.28 MB | 20.09 MB |
-| micromamba | 49.44 MB | 16.48 MB |
+| micromamba | 49.39 MB | 16.46 MB |
 | yazi | 41.85 MB | 13.95 MB |
-| git-lfs | 35.92 MB | 11.97 MB |
-| starship | 29.87 MB | 9.96 MB |
+| starship | 29.46 MB | 9.82 MB |
 | direnv | 22.62 MB | 7.54 MB |
 | delta | 18.64 MB | 6.21 MB |
 | bat | 17.96 MB | 5.99 MB |
 | rg | 13.39 MB | 4.46 MB |
-| fzf | 12.59 MB | 4.2 MB |
+| fzf | 12.6 MB | 4.2 MB |
 | fd | 10.12 MB | 3.37 MB |
 | duf | 8.86 MB | 2.95 MB |
 | dust | 8.09 MB | 2.7 MB |
@@ -166,7 +164,6 @@ tools:
   duf: muesli/duf
   dust: bootandy/dust
   fd: sharkdp/fd
-  git-lfs: git-lfs/git-lfs
   hyperfine: sharkdp/hyperfine
   rg: BurntSushi/ripgrep
   yazi: sxyazi/yazi
@@ -186,7 +183,7 @@ tools:
     repo: eza-community/eza
     shell_code:
       bash,zsh: |
-        alias l="eza -lah --git --icons"
+        alias l="eza -lah --git --icons auto"
   fzf:
     repo: junegunn/fzf
     shell_code:
@@ -228,6 +225,6 @@ tools:
 
 ## ℹ️ Additional Information
 
-* This README was automatically generated on Nov 14, 2025
-* Current platform: **linux/amd64**
+* This README was automatically generated on Nov 26, 2025
+* Current platform: **macos/arm64**
 * For more information on dotbins, visit https://github.com/basnijholt/dotbins

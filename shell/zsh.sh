@@ -23,7 +23,7 @@ fi
 
 # Configuration for eza
 if command -v eza >/dev/null 2>&1; then
-    alias l="eza -lah --git --icons"
+    alias l="eza -lah --git --icons auto"
 fi
 
 # Configuration for fzf
