@@ -1,6 +1,6 @@
 # 🛠️ dotbins Tool Collection
 
-[![dotbins](https://img.shields.io/badge/powered%20by-dotbins-blue.svg?style=flat-square)](https://github.com/basnijholt/dotbins) [![Version](https://img.shields.io/badge/version-2.5.0.post1+gdfa8cbe-green.svg?style=flat-square)](https://github.com/basnijholt/dotbins/releases)
+[![dotbins](https://img.shields.io/badge/powered%20by-dotbins-blue.svg?style=flat-square)](https://github.com/basnijholt/dotbins) [![Version](https://img.shields.io/badge/version-2.5.0-green.svg?style=flat-square)](https://github.com/basnijholt/dotbins/releases)
 
 This directory contains command-line tools automatically managed by [dotbins](https://github.com/basnijholt/dotbins).
 
@@ -161,7 +161,6 @@ platforms:
     - arm64
 
 tools:
-  bun: oven-sh/bun
   delta: dandavison/delta
   duf: muesli/duf
   dust: bootandy/dust
@@ -176,6 +175,9 @@ tools:
       bash,zsh: |
         alias bat="bat --paging=never"
         alias cat="bat --plain --paging=never"
+  bun:
+    repo: oven-sh/bun
+    binary_name: [bun, bunx]
   direnv:
     repo: direnv/direnv
     shell_code:
