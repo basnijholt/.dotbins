@@ -1,22 +1,22 @@
 {
   "version": 2,
   "atuin/linux/amd64": {
-    "tag": "v18.10.0",
-    "updated_at": "2025-10-23T15:04:36.950010",
-    "sha256": "3bde3af69d9fc88633c43488c6ce3c116c642733d923bbf4c4224108310bd64d",
-    "url": "https://github.com/atuinsh/atuin/releases/download/v18.10.0/atuin-x86_64-unknown-linux-musl.tar.gz"
+    "tag": "v18.11.0",
+    "updated_at": "2026-01-21T08:48:42.536065",
+    "sha256": "77eac1ea8483d069265ebce6bfeead3c890e2ea52d7a86344175bfb197768d2a",
+    "url": "https://github.com/atuinsh/atuin/releases/download/v18.11.0/atuin-x86_64-unknown-linux-musl.tar.gz"
   },
   "atuin/linux/arm64": {
-    "tag": "v18.10.0",
-    "updated_at": "2025-10-23T15:04:37.327088",
-    "sha256": "2fe46ad53817ca052698a6879a92884071ba475a5d3d729fe9126f46950bc619",
-    "url": "https://github.com/atuinsh/atuin/releases/download/v18.10.0/atuin-aarch64-unknown-linux-musl.tar.gz"
+    "tag": "v18.11.0",
+    "updated_at": "2026-01-21T08:48:42.605782",
+    "sha256": "94f224fcb65fedfc9cddcf2662b639ca53ce62e4e75634862543f4a38818aff5",
+    "url": "https://github.com/atuinsh/atuin/releases/download/v18.11.0/atuin-aarch64-unknown-linux-musl.tar.gz"
   },
   "atuin/macos/arm64": {
-    "tag": "v18.10.0",
-    "updated_at": "2025-10-23T15:04:37.661811",
-    "sha256": "9ac9618cf57bcfe561d53d0539ffee9b8185286b11f3b330df26fe35d06411f1",
-    "url": "https://github.com/atuinsh/atuin/releases/download/v18.10.0/atuin-aarch64-apple-darwin.tar.gz"
+    "tag": "v18.11.0",
+    "updated_at": "2026-01-21T08:48:42.665446",
+    "sha256": "b8c8f4584f801873b511ecf74dbfff1194dd9727745db9ee9ff6542eaf796aa1",
+    "url": "https://github.com/atuinsh/atuin/releases/download/v18.11.0/atuin-aarch64-apple-darwin.tar.gz"
   },
   "bat/linux/amd64": {
     "tag": "v0.26.1",
@@ -35,6 +35,24 @@
     "updated_at": "2025-12-11T12:47:57.543656",
     "sha256": "e30beff26779c9bf60bb541e1d79046250cb74378f2757f8eb250afddb19e114",
     "url": "https://github.com/sharkdp/bat/releases/download/v0.26.1/bat-v0.26.1-aarch64-apple-darwin.tar.gz"
+  },
+  "bun/linux/amd64": {
+    "tag": "bun-v1.3.6",
+    "updated_at": "2026-01-21T08:48:42.817711",
+    "sha256": "b13061f7e2ef5896fff95d849213a9628e9d89036cb7a23837c6dbba8844f636",
+    "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.6/bun-linux-x64-musl.zip"
+  },
+  "bun/linux/arm64": {
+    "tag": "bun-v1.3.6",
+    "updated_at": "2026-01-21T08:48:42.966383",
+    "sha256": "21af5d4c276dc4a0a3bbd3893a83994fa9de916b6807f8af9aff43d6193e579d",
+    "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.6/bun-linux-aarch64-musl.zip"
+  },
+  "bun/macos/arm64": {
+    "tag": "bun-v1.3.6",
+    "updated_at": "2026-01-21T08:48:43.070358",
+    "sha256": "2af1ec8437759ab05b3b0ea421fe9e22e6c705cb4cb0751c326982642dace8fa",
+    "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.6/bun-darwin-aarch64.zip"
   },
   "delta/linux/amd64": {
     "tag": "0.18.2",
@@ -88,22 +106,22 @@
     "url": "https://github.com/muesli/duf/releases/download/v0.9.1/duf_0.9.1_darwin_arm64.tar.gz"
   },
   "dust/linux/amd64": {
-    "tag": "v1.2.3",
-    "updated_at": "2025-10-08T09:48:42.608794",
-    "sha256": "2767e53a07a6f887c95d80dc7b976fbb0f85c24fa19e83704639ff5d67ebfbf4",
-    "url": "https://github.com/bootandy/dust/releases/download/v1.2.3/dust-v1.2.3-x86_64-unknown-linux-musl.tar.gz"
+    "tag": "v1.2.4",
+    "updated_at": "2026-01-21T08:48:43.091330",
+    "sha256": "4e313f9f854017e58a2ada4c0d1774677b8cf53d63ab55a991d5871d5f504452",
+    "url": "https://github.com/bootandy/dust/releases/download/v1.2.4/dust-v1.2.4-x86_64-unknown-linux-musl.tar.gz"
   },
   "dust/linux/arm64": {
-    "tag": "v1.2.3",
-    "updated_at": "2025-10-08T09:48:42.619259",
-    "sha256": "02b6db1fca7fbb2137f961619f2b1498b26cb3b3cbd3ec3cc3cf23907a354c18",
-    "url": "https://github.com/bootandy/dust/releases/download/v1.2.3/dust-v1.2.3-aarch64-unknown-linux-musl.tar.gz"
+    "tag": "v1.2.4",
+    "updated_at": "2026-01-21T08:48:43.105572",
+    "sha256": "e09b0d24b5da0fa06aecf1561849c13ae41ef055c1ce7077e35e9a46744b16af",
+    "url": "https://github.com/bootandy/dust/releases/download/v1.2.4/dust-v1.2.4-aarch64-unknown-linux-musl.tar.gz"
   },
   "dust/macos/arm64": {
-    "tag": "v1.2.3",
-    "updated_at": "2025-10-08T09:48:42.630111",
-    "sha256": "6f49a9a56efa3c215924073a8ca7e2da3fdfb6ddb9dfb818336b2da753e95750",
-    "url": "https://github.com/bootandy/dust/releases/download/v1.2.3/dust-v1.2.3-x86_64-apple-darwin.tar.gz"
+    "tag": "v1.2.4",
+    "updated_at": "2026-01-21T08:48:43.118625",
+    "sha256": "bf84d3ff7f58e325d3eb5bb7696df6b22ef1e01fec80c2d8f7c9d3e611be66f4",
+    "url": "https://github.com/bootandy/dust/releases/download/v1.2.4/dust-v1.2.4-x86_64-apple-darwin.tar.gz"
   },
   "eza/linux/amd64": {
     "tag": "v0.23.4",
@@ -208,40 +226,40 @@
     "url": "https://github.com/danielrobbins/keychain/releases/download/2.9.8/keychain"
   },
   "lazygit/linux/amd64": {
-    "tag": "v0.57.0",
-    "updated_at": "2025-12-11T12:47:57.780223",
-    "sha256": "ced011ecd1459d069c66128fbf172b7248c8b99d8983fa17d84a247a98146d5e",
-    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.57.0/lazygit_0.57.0_linux_x86_64.tar.gz"
+    "tag": "v0.58.1",
+    "updated_at": "2026-01-21T08:48:43.158654",
+    "sha256": "61b6b839390c193466fb692f75df4e75ef5e9ced2bf5e0ca8b3848902f0adea9",
+    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.1/lazygit_0.58.1_linux_x86_64.tar.gz"
   },
   "lazygit/linux/arm64": {
-    "tag": "v0.57.0",
-    "updated_at": "2025-12-11T12:47:57.826509",
-    "sha256": "6bc14dcfafe943363226ed2a2c222d5dda68247acc9bdc382d129dd7fe98f985",
-    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.57.0/lazygit_0.57.0_linux_arm64.tar.gz"
+    "tag": "v0.58.1",
+    "updated_at": "2026-01-21T08:48:43.201986",
+    "sha256": "c0571542a3df894748afc8820fcd2ac16df0970df2ddb429280dfef47b1f2d1e",
+    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.1/lazygit_0.58.1_linux_arm64.tar.gz"
   },
   "lazygit/macos/arm64": {
-    "tag": "v0.57.0",
-    "updated_at": "2025-12-11T12:47:57.876175",
-    "sha256": "e90dd90c37bb012f1fe708e7f3d32d28747c8638c75a45268734c5e33277c3d0",
-    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.57.0/lazygit_0.57.0_darwin_arm64.tar.gz"
+    "tag": "v0.58.1",
+    "updated_at": "2026-01-21T08:48:43.250287",
+    "sha256": "d93a8a217a51f26d0a643a97bd31e3fabcb2e3a78cdbf1f1e533b9cd8bc881ce",
+    "url": "https://github.com/jesseduffield/lazygit/releases/download/v0.58.1/lazygit_0.58.1_darwin_arm64.tar.gz"
   },
   "micromamba/linux/amd64": {
-    "tag": "2.4.0-1",
-    "updated_at": "2025-12-11T12:47:57.889054",
-    "sha256": "6b64c543743b3fc680a8138fb0ed962d9c9066af5859c29b86f1ce04bed40b76",
-    "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.4.0-1/micromamba-linux-64"
+    "tag": "2.5.0-1",
+    "updated_at": "2026-01-21T08:48:43.261111",
+    "sha256": "dd9899873602972ae3b9ec02fc11b2fb1ab51f5eab5eacdf23ef385313f22491",
+    "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.5.0-1/micromamba-linux-64"
   },
   "micromamba/linux/arm64": {
-    "tag": "2.4.0-1",
-    "updated_at": "2025-12-11T12:47:57.906428",
-    "sha256": "cbc9b04dbe48a096c6dc68d2c7cf0888021933c3f7c2c00b78e62bef4954d474",
-    "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.4.0-1/micromamba-linux-aarch64"
+    "tag": "2.5.0-1",
+    "updated_at": "2026-01-21T08:48:43.273303",
+    "sha256": "534dd24fb57a8b72a79b883d69b959d7f1c7958be9918be9ddd907a0ffdfdf0e",
+    "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.5.0-1/micromamba-linux-aarch64"
   },
   "micromamba/macos/arm64": {
-    "tag": "2.4.0-1",
-    "updated_at": "2025-12-11T12:47:57.917459",
-    "sha256": "847de1cbad6916a1765b77f93bca6e6523fa4c9489c9494f33a3ad10898bcb10",
-    "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.4.0-1/micromamba-osx-arm64"
+    "tag": "2.5.0-1",
+    "updated_at": "2026-01-21T08:48:43.282112",
+    "sha256": "1fb48de51d18d07b224ea2bf8d6b3b2e3262512affbcb7e8c0e3fe64b46f3e76",
+    "url": "https://github.com/mamba-org/micromamba-releases/releases/download/2.5.0-1/micromamba-osx-arm64"
   },
   "rg/linux/amd64": {
     "tag": "15.1.0",
@@ -262,58 +280,58 @@
     "url": "https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep-15.1.0-aarch64-apple-darwin.tar.gz"
   },
   "starship/linux/amd64": {
-    "tag": "v1.24.1",
-    "updated_at": "2025-11-26T11:14:06.188686",
-    "sha256": "44a729c34aea5b0451fba49108cdc5ef6b1ae68db65e7623cc244a52efcd23d1",
-    "url": "https://github.com/starship/starship/releases/download/v1.24.1/starship-x86_64-unknown-linux-musl.tar.gz"
+    "tag": "v1.24.2",
+    "updated_at": "2026-01-21T08:48:43.314042",
+    "sha256": "00ff3c1f8ffb59b5c15d4b44c076bcca04d92cf0055c86b916248c14f3ae714a",
+    "url": "https://github.com/starship/starship/releases/download/v1.24.2/starship-x86_64-unknown-linux-musl.tar.gz"
   },
   "starship/linux/arm64": {
-    "tag": "v1.24.1",
-    "updated_at": "2025-11-26T11:14:06.222644",
-    "sha256": "a01ac37aa5993b78ecd6761c5ff4f805032b8ba566357ffbb2227980216f2216",
-    "url": "https://github.com/starship/starship/releases/download/v1.24.1/starship-aarch64-unknown-linux-musl.tar.gz"
+    "tag": "v1.24.2",
+    "updated_at": "2026-01-21T08:48:43.342382",
+    "sha256": "56b9ff412bbf374d29b99e5ac09a849124cb37a0a13121e8470df32de53c1ea6",
+    "url": "https://github.com/starship/starship/releases/download/v1.24.2/starship-aarch64-unknown-linux-musl.tar.gz"
   },
   "starship/macos/arm64": {
-    "tag": "v1.24.1",
-    "updated_at": "2025-11-26T11:14:06.250472",
-    "sha256": "877e6b18d8f826167ca6b6f2ff00ebac2477fa1924c06b89befe524840ffc726",
-    "url": "https://github.com/starship/starship/releases/download/v1.24.1/starship-aarch64-apple-darwin.tar.gz"
+    "tag": "v1.24.2",
+    "updated_at": "2026-01-21T08:48:43.370746",
+    "sha256": "d3a0da21374962625a2ee992110979bc1fa33424d7b6aea58a70405e26544fd9",
+    "url": "https://github.com/starship/starship/releases/download/v1.24.2/starship-aarch64-apple-darwin.tar.gz"
   },
   "uv/linux/amd64": {
-    "tag": "0.9.17",
-    "updated_at": "2025-12-11T12:47:58.043029",
-    "sha256": "ab616c1851e7b1ed377a9ff3997dcee184bea7eda0b20bc8607abba6c469cbad",
-    "url": "https://github.com/astral-sh/uv/releases/download/0.9.17/uv-x86_64-unknown-linux-musl.tar.gz"
+    "tag": "0.9.26",
+    "updated_at": "2026-01-21T08:48:43.478563",
+    "sha256": "708b752876aeeb753257e1d55470569789e465684c1d3bc1760db26360b6c28b",
+    "url": "https://github.com/astral-sh/uv/releases/download/0.9.26/uv-x86_64-unknown-linux-musl.tar.gz"
   },
   "uv/linux/arm64": {
-    "tag": "0.9.17",
-    "updated_at": "2025-12-11T12:47:58.162895",
-    "sha256": "f6f48a301f8e855765af42ef50257af0cebc9c5439dfdcbc188142941aea45ca",
-    "url": "https://github.com/astral-sh/uv/releases/download/0.9.17/uv-aarch64-unknown-linux-musl.tar.gz"
+    "tag": "0.9.26",
+    "updated_at": "2026-01-21T08:48:43.584494",
+    "sha256": "ba8698c36c00c22efed4bd3506339b03c95604d001f02eaf6fbc814c9224d801",
+    "url": "https://github.com/astral-sh/uv/releases/download/0.9.26/uv-aarch64-unknown-linux-musl.tar.gz"
   },
   "uv/macos/arm64": {
-    "tag": "0.9.17",
-    "updated_at": "2025-12-11T12:47:58.275650",
-    "sha256": "a1e1464aa1d04d5e5fa700aa2f2e10397d1114e835dbd56be25ba65c9a31bd99",
-    "url": "https://github.com/astral-sh/uv/releases/download/0.9.17/uv-aarch64-apple-darwin.tar.gz"
+    "tag": "0.9.26",
+    "updated_at": "2026-01-21T08:48:43.673791",
+    "sha256": "fcf0a9ea6599c6ae28a4c854ac6da76f2c889354d7c36ce136ef071f7ab9721f",
+    "url": "https://github.com/astral-sh/uv/releases/download/0.9.26/uv-aarch64-apple-darwin.tar.gz"
   },
   "yazi/linux/amd64": {
-    "tag": "v25.5.31",
-    "updated_at": "2025-10-08T09:48:43.571143",
-    "sha256": "a2fdc9c35719fa72d94820893eb2fedd93fd1c418c2cf568702643526c358f7a",
-    "url": "https://github.com/sxyazi/yazi/releases/download/v25.5.31/yazi-x86_64-unknown-linux-musl.zip"
+    "tag": "v26.1.4",
+    "updated_at": "2026-01-21T08:48:43.732465",
+    "sha256": "76e5010e1dcd11259d34bda4cca75d33fad4b4deb59dadf179832a39d6b99994",
+    "url": "https://github.com/sxyazi/yazi/releases/download/v26.1.4/yazi-x86_64-unknown-linux-musl.zip"
   },
   "yazi/linux/arm64": {
-    "tag": "v25.5.31",
-    "updated_at": "2025-10-08T09:48:43.610567",
-    "sha256": "9a838ff2d028c70d4eb4c502a75fc963ad92d2e1353133f20d9f6d5cafb9c4d6",
-    "url": "https://github.com/sxyazi/yazi/releases/download/v25.5.31/yazi-aarch64-unknown-linux-musl.zip"
+    "tag": "v26.1.4",
+    "updated_at": "2026-01-21T08:48:43.783877",
+    "sha256": "d1b6753e56ca4ed963b9de26a2033d97566c66f37e915f3cc6b2379925c9f8df",
+    "url": "https://github.com/sxyazi/yazi/releases/download/v26.1.4/yazi-aarch64-unknown-linux-musl.zip"
   },
   "yazi/macos/arm64": {
-    "tag": "v25.5.31",
-    "updated_at": "2025-10-08T09:48:43.646993",
-    "sha256": "8bdf137e8f84cd11f9dd866ff2b68e4886d1055ab21fe2e0c6f6a0515d2bfd70",
-    "url": "https://github.com/sxyazi/yazi/releases/download/v25.5.31/yazi-aarch64-apple-darwin.zip"
+    "tag": "v26.1.4",
+    "updated_at": "2026-01-21T08:48:43.830950",
+    "sha256": "04ef51ee7865b5b34f242cbc03f6ab8978b4f9c41e42899e3e886cfccd8b5fb0",
+    "url": "https://github.com/sxyazi/yazi/releases/download/v26.1.4/yazi-aarch64-apple-darwin.zip"
   },
   "zoxide/linux/amd64": {
     "tag": "v0.9.8",
