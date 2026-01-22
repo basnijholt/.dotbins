@@ -1,6 +1,6 @@
 # 🛠️ dotbins Tool Collection
 
-[![dotbins](https://img.shields.io/badge/powered%20by-dotbins-blue.svg?style=flat-square)](https://github.com/basnijholt/dotbins) [![Version](https://img.shields.io/badge/version-2.5.0-green.svg?style=flat-square)](https://github.com/basnijholt/dotbins/releases)
+[![dotbins](https://img.shields.io/badge/powered%20by-dotbins-blue.svg?style=flat-square)](https://github.com/basnijholt/dotbins) [![Version](https://img.shields.io/badge/version-2.5.0.post1+gdfa8cbe-green.svg?style=flat-square)](https://github.com/basnijholt/dotbins/releases)
 
 This directory contains command-line tools automatically managed by [dotbins](https://github.com/basnijholt/dotbins).
 
@@ -35,7 +35,7 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | :--- | :--------- | :------ | :------ | :------------------------ |
 | [atuin](https://github.com/atuinsh/atuin) | atuinsh/atuin | 18.11.0 | Jan 21, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [bat](https://github.com/sharkdp/bat) | sharkdp/bat | 0.26.1 | Dec 11, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [bun](https://github.com/oven-sh/bun) | oven-sh/bun | bun-v1.3.6 | Jan 21, 2026 | linux (amd64, arm64) • macos (arm64) |
+| [bun](https://github.com/oven-sh/bun) | oven-sh/bun | bun-v1.3.6 | Jan 22, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [delta](https://github.com/dandavison/delta) | dandavison/delta | 0.18.2 | Aug 21, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [direnv](https://github.com/direnv/direnv) | direnv/direnv | 2.37.1 | Oct 08, 2025 | linux (amd64, arm64) • macos (arm64) |
 | [duf](https://github.com/muesli/duf) | muesli/duf | 0.9.1 | Oct 08, 2025 | linux (amd64, arm64) • macos (arm64) |
@@ -55,11 +55,11 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 
 ## 📊 Tool Statistics
 
-<div align='center'><h3>📦 56 Tools | 💾 784.09 MB Total Size</h3></div>
+<div align='center'><h3>📦 56 Tools | 💾 795.22 MB Total Size</h3></div>
 
 | Tool | Total Size | Avg Size per Architecture |
 | :--- | :-------- | :------------------------ |
-| bun | 229.61 MB | 76.54 MB |
+| bun | 240.74 MB | 80.25 MB |
 | uv | 142.08 MB | 47.36 MB |
 | atuin | 93.13 MB | 31.04 MB |
 | lazygit | 60.04 MB | 20.01 MB |
@@ -177,7 +177,15 @@ tools:
         alias cat="bat --plain --paging=never"
   bun:
     repo: oven-sh/bun
-    binary_name: [bun, bunx]
+    arch_map:
+      amd64: x64
+      arm64: aarch64
+    asset_patterns:
+      linux: bun-linux-{arch}.zip
+      macos: bun-darwin-{arch}.zip
+    shell_code:
+      bash,zsh: |
+        alias bunx="bun x"
   direnv:
     repo: direnv/direnv
     shell_code:
@@ -233,6 +241,6 @@ tools:
 
 ## ℹ️ Additional Information
 
-* This README was automatically generated on Jan 21, 2026
+* This README was automatically generated on Jan 22, 2026
 * Current platform: **macos/arm64**
 * For more information on dotbins, visit https://github.com/basnijholt/dotbins

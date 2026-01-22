@@ -38,19 +38,19 @@
   },
   "bun/linux/amd64": {
     "tag": "bun-v1.3.6",
-    "updated_at": "2026-01-21T08:59:13.322779",
-    "sha256": "b13061f7e2ef5896fff95d849213a9628e9d89036cb7a23837c6dbba8844f636",
-    "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.6/bun-linux-x64-musl.zip"
+    "updated_at": "2026-01-22T09:01:46.880202",
+    "sha256": "9ba98d2134550d6690875b23a4f5c48e74b7cb267e8cc1b8f52605921c6c11ef",
+    "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.6/bun-linux-x64.zip"
   },
   "bun/linux/arm64": {
     "tag": "bun-v1.3.6",
-    "updated_at": "2026-01-21T08:59:13.459459",
-    "sha256": "21af5d4c276dc4a0a3bbd3893a83994fa9de916b6807f8af9aff43d6193e579d",
-    "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.6/bun-linux-aarch64-musl.zip"
+    "updated_at": "2026-01-22T09:01:47.049367",
+    "sha256": "5afd12b366ba2d8297245cc29c039416334dd872152c1db02e5c8aa8c66e96b1",
+    "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.6/bun-linux-aarch64.zip"
   },
   "bun/macos/arm64": {
     "tag": "bun-v1.3.6",
-    "updated_at": "2026-01-21T09:02:53.703302",
+    "updated_at": "2026-01-22T09:01:47.161130",
     "sha256": "2af1ec8437759ab05b3b0ea421fe9e22e6c705cb4cb0751c326982642dace8fa",
     "url": "https://github.com/oven-sh/bun/releases/download/bun-v1.3.6/bun-darwin-aarch64.zip"
   },

@@ -16,6 +16,11 @@ if command -v bat >/dev/null 2>&1; then
     alias cat="bat --plain --paging=never"
 fi
 
+# Configuration for bun
+if command -v bun >/dev/null 2>&1; then
+    alias bunx="bun x"
+fi
+
 # Configuration for direnv
 if command -v direnv >/dev/null 2>&1; then
     eval "$(direnv hook zsh)"
