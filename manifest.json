@@ -316,22 +316,22 @@
     "url": "https://github.com/astral-sh/uv/releases/download/0.9.26/uv-aarch64-apple-darwin.tar.gz"
   },
   "yazi/linux/amd64": {
-    "tag": "v26.1.4",
-    "updated_at": "2026-01-21T08:48:43.732465",
-    "sha256": "76e5010e1dcd11259d34bda4cca75d33fad4b4deb59dadf179832a39d6b99994",
-    "url": "https://github.com/sxyazi/yazi/releases/download/v26.1.4/yazi-x86_64-unknown-linux-musl.zip"
+    "tag": "v26.1.22",
+    "updated_at": "2026-01-23T17:58:45.274566",
+    "sha256": "b977351968206c0b78d2ef5bf21351685cc191b58a4c7e1c98c37db5d0a381f8",
+    "url": "https://github.com/sxyazi/yazi/releases/download/v26.1.22/yazi-x86_64-unknown-linux-musl.zip"
   },
   "yazi/linux/arm64": {
-    "tag": "v26.1.4",
-    "updated_at": "2026-01-21T08:48:43.783877",
-    "sha256": "d1b6753e56ca4ed963b9de26a2033d97566c66f37e915f3cc6b2379925c9f8df",
-    "url": "https://github.com/sxyazi/yazi/releases/download/v26.1.4/yazi-aarch64-unknown-linux-musl.zip"
+    "tag": "v26.1.22",
+    "updated_at": "2026-01-23T17:58:45.333784",
+    "sha256": "91a37cdb3aa49f903aab6af57bca708935acb6def1d9f218716ab414f0a3a8b1",
+    "url": "https://github.com/sxyazi/yazi/releases/download/v26.1.22/yazi-aarch64-unknown-linux-musl.zip"
   },
   "yazi/macos/arm64": {
-    "tag": "v26.1.4",
-    "updated_at": "2026-01-21T08:48:43.830950",
-    "sha256": "04ef51ee7865b5b34f242cbc03f6ab8978b4f9c41e42899e3e886cfccd8b5fb0",
-    "url": "https://github.com/sxyazi/yazi/releases/download/v26.1.4/yazi-aarch64-apple-darwin.zip"
+    "tag": "v26.1.22",
+    "updated_at": "2026-01-23T17:58:45.384876",
+    "sha256": "8355ad582dd9f4ef1f88a228080f2b6116bbb483dd48d1bde555d475f4d2afe4",
+    "url": "https://github.com/sxyazi/yazi/releases/download/v26.1.22/yazi-aarch64-apple-darwin.zip"
   },
   "zoxide/linux/amd64": {
     "tag": "v0.9.8",
