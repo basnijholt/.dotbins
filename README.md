@@ -44,28 +44,28 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | [fd](https://github.com/sharkdp/fd) | sharkdp/fd | 10.4.2 | Apr 06, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [fzf](https://github.com/junegunn/fzf) | junegunn/fzf | 0.73.1 | Jun 05, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [hyperfine](https://github.com/sharkdp/hyperfine) | sharkdp/hyperfine | 1.20.0 | Nov 26, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [keychain](https://github.com/danielrobbins/keychain) | danielrobbins/keychain | 2.9.8 | Dec 11, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [lazygit](https://github.com/jesseduffield/lazygit) | jesseduffield/lazygit | 0.62.2 | Jun 05, 2026 | linux (amd64, arm64) • macos (arm64) |
-| [micromamba](https://github.com/mamba-org/micromamba-releases) | mamba-org/micromamba-releases | 2.8.0-0 | Jun 05, 2026 | linux (amd64, arm64) • macos (arm64) |
+| [keychain](https://github.com/danielrobbins/keychain) | danielrobbins/keychain | 3.0.0_beta2 | Jul 05, 2026 | linux (amd64, arm64) • macos (arm64) |
+| [lazygit](https://github.com/jesseduffield/lazygit) | jesseduffield/lazygit | 0.63.0 | Jul 05, 2026 | linux (amd64, arm64) • macos (arm64) |
+| [micromamba](https://github.com/mamba-org/micromamba-releases) | mamba-org/micromamba-releases | 2.8.1-0 | Jul 05, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [rg](https://github.com/BurntSushi/ripgrep) | BurntSushi/ripgrep | 15.1.0 | Oct 23, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [starship](https://github.com/starship/starship) | starship/starship | 1.25.1 | May 07, 2026 | linux (amd64, arm64) • macos (arm64) |
-| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.11.19 | Jun 05, 2026 | linux (amd64, arm64) • macos (arm64) |
+| [starship](https://github.com/starship/starship) | starship/starship | 1.26.0 | Jul 05, 2026 | linux (amd64, arm64) • macos (arm64) |
+| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.11.26 | Jul 05, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [yazi](https://github.com/sxyazi/yazi) | sxyazi/yazi | 26.5.6 | May 07, 2026 | linux (amd64, arm64) • macos (arm64) |
-| [zoxide](https://github.com/ajeetdsouza/zoxide) | ajeetdsouza/zoxide | 0.9.9 | Apr 06, 2026 | linux (amd64, arm64) • macos (arm64) |
+| [zoxide](https://github.com/ajeetdsouza/zoxide) | ajeetdsouza/zoxide | 0.10.0 | Jul 05, 2026 | linux (amd64, arm64) • macos (arm64) |
 
 ## 📊 Tool Statistics
 
-<div align='center'><h3>📦 56 Tools | 💾 790.35 MB Total Size</h3></div>
+<div align='center'><h3>📦 56 Tools | 💾 802.06 MB Total Size</h3></div>
 
 | Tool | Total Size | Avg Size per Architecture |
 | :--- | :-------- | :------------------------ |
 | bun | 236.18 MB | 78.73 MB |
-| uv | 152.25 MB | 50.75 MB |
+| uv | 161.82 MB | 53.94 MB |
 | atuin | 82.68 MB | 27.56 MB |
 | yazi | 60.78 MB | 20.26 MB |
-| lazygit | 52.87 MB | 17.62 MB |
+| lazygit | 53.35 MB | 17.78 MB |
 | micromamba | 51.75 MB | 17.25 MB |
-| starship | 29.84 MB | 9.95 MB |
+| starship | 30.76 MB | 10.25 MB |
 | direnv | 22.62 MB | 7.54 MB |
 | delta | 18.8 MB | 6.27 MB |
 | bat | 17.89 MB | 5.96 MB |
@@ -76,8 +76,8 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | dust | 7.97 MB | 2.66 MB |
 | eza | 4.25 MB | 2.12 MB |
 | hyperfine | 3.6 MB | 1.2 MB |
-| zoxide | 2.97 MB | 1012.35 KB |
-| keychain | 143.84 KB | 47.95 KB |
+| zoxide | 3.1 MB | 1.03 MB |
+| keychain | 776.43 KB | 258.81 KB |
 
 ## 💻 Shell Integration
 
@@ -241,6 +241,6 @@ tools:
 
 ## ℹ️ Additional Information
 
-* This README was automatically generated on Jun 05, 2026
-* Current platform: **macos/arm64**
+* This README was automatically generated on Jul 05, 2026
+* Current platform: **linux/amd64**
 * For more information on dotbins, visit https://github.com/basnijholt/dotbins
