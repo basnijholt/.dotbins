@@ -64,7 +64,7 @@ tools:
     repo: starship/starship
     shell_code:
       bash,zsh: |
-        eval "$(starship init __DOTBINS_SHELL__)"
+        [ "$TERM" != "dumb" ] && eval "$(starship init __DOTBINS_SHELL__)"
   zoxide:
     repo: ajeetdsouza/zoxide
     shell_code:

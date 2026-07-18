@@ -48,7 +48,7 @@ fi
 
 # Configuration for starship
 if command -v starship >/dev/null 2>&1; then
-    eval "$(starship init bash)"
+    [ "$TERM" != "dumb" ] && eval "$(starship init bash)"
 fi
 
 # Configuration for zoxide
