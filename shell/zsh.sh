@@ -9,55 +9,57 @@ _arch=$(uname -m)
 
 export PATH="$HOME/.dotbins/$_os/$_arch/bin:$PATH"
 
-# Tool-specific configurations
-# Configuration for bat
-if command -v bat >/dev/null 2>&1; then
-    alias bat="bat --paging=never"
-    alias cat="bat --plain --paging=never"
-fi
+if [[ $- == *i* ]]; then
+    # Tool-specific configurations
+    # Configuration for bat
+    if command -v bat >/dev/null 2>&1; then
+        alias bat="bat --paging=never"
+        alias cat="bat --plain --paging=never"
+    fi
 
-# Configuration for bun
-if command -v bun >/dev/null 2>&1; then
-    alias bunx="bun x"
-fi
+    # Configuration for bun
+    if command -v bun >/dev/null 2>&1; then
+        alias bunx="bun x"
+    fi
 
-# Configuration for direnv
-if command -v direnv >/dev/null 2>&1; then
-    eval "$(direnv hook zsh)"
-fi
+    # Configuration for direnv
+    if command -v direnv >/dev/null 2>&1; then
+        eval "$(direnv hook zsh)"
+    fi
 
-# Configuration for eza
-if command -v eza >/dev/null 2>&1; then
-    alias l="eza --long --all --git --icons=auto"
-fi
+    # Configuration for eza
+    if command -v eza >/dev/null 2>&1; then
+        alias l="eza --long --all --git --icons=auto"
+    fi
 
-# Configuration for fzf
-if command -v fzf >/dev/null 2>&1; then
-    source <(fzf --zsh)
-fi
+    # Configuration for fzf
+    if command -v fzf >/dev/null 2>&1; then
+        source <(fzf --zsh)
+    fi
 
-# Configuration for lazygit
-if command -v lazygit >/dev/null 2>&1; then
-    alias lg="lazygit"
-fi
+    # Configuration for lazygit
+    if command -v lazygit >/dev/null 2>&1; then
+        alias lg="lazygit"
+    fi
 
-# Configuration for micromamba
-if command -v micromamba >/dev/null 2>&1; then
-    alias mm="micromamba"
-fi
+    # Configuration for micromamba
+    if command -v micromamba >/dev/null 2>&1; then
+        alias mm="micromamba"
+    fi
 
-# Configuration for starship
-if command -v starship >/dev/null 2>&1; then
-    [ "$TERM" != "dumb" ] && eval "$(starship init zsh)"
-fi
+    # Configuration for starship
+    if command -v starship >/dev/null 2>&1; then
+        [ "$TERM" != "dumb" ] && eval "$(starship init zsh)"
+    fi
 
-# Configuration for zoxide
-if command -v zoxide >/dev/null 2>&1; then
-    eval "$(zoxide init zsh)"
-fi
+    # Configuration for zoxide
+    if command -v zoxide >/dev/null 2>&1; then
+        eval "$(zoxide init zsh)"
+    fi
 
-# Configuration for atuin
-if command -v atuin >/dev/null 2>&1; then
-    eval "$(atuin init zsh --disable-up-arrow)"
+    # Configuration for atuin
+    if command -v atuin >/dev/null 2>&1; then
+        eval "$(atuin init zsh --disable-up-arrow)"
+    fi
 fi
 
