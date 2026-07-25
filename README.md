@@ -44,23 +44,23 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | [fd](https://github.com/sharkdp/fd) | sharkdp/fd | 10.4.2 | Apr 06, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [fzf](https://github.com/junegunn/fzf) | junegunn/fzf | 0.74.1 | Jul 22, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [hyperfine](https://github.com/sharkdp/hyperfine) | sharkdp/hyperfine | 1.20.0 | Nov 26, 2025 | linux (amd64, arm64) • macos (arm64) |
-| [keychain](https://github.com/danielrobbins/keychain) | danielrobbins/keychain | 3.0.0_beta3 | Jul 22, 2026 | linux (amd64, arm64) • macos (arm64) |
+| [keychain](https://github.com/danielrobbins/keychain) | danielrobbins/keychain | 3.0.0 | Jul 25, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [lazygit](https://github.com/jesseduffield/lazygit) | jesseduffield/lazygit | 0.63.1 | Jul 22, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [micromamba](https://github.com/mamba-org/micromamba-releases) | mamba-org/micromamba-releases | 2.8.1-0 | Jul 05, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [rg](https://github.com/BurntSushi/ripgrep) | BurntSushi/ripgrep | 15.2.0 | Jul 22, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [starship](https://github.com/starship/starship) | starship/starship | 1.26.0 | Jul 05, 2026 | linux (amd64, arm64) • macos (arm64) |
-| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.11.31 | Jul 22, 2026 | linux (amd64, arm64) • macos (arm64) |
+| [uv](https://github.com/astral-sh/uv) | astral-sh/uv | 0.11.32 | Jul 25, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [yazi](https://github.com/sxyazi/yazi) | sxyazi/yazi | 26.5.6 | May 07, 2026 | linux (amd64, arm64) • macos (arm64) |
 | [zoxide](https://github.com/ajeetdsouza/zoxide) | ajeetdsouza/zoxide | 0.10.0 | Jul 05, 2026 | linux (amd64, arm64) • macos (arm64) |
 
 ## 📊 Tool Statistics
 
-<div align='center'><h3>📦 56 Tools | 💾 816.0 MB Total Size</h3></div>
+<div align='center'><h3>📦 56 Tools | 💾 816.7 MB Total Size</h3></div>
 
 | Tool | Total Size | Avg Size per Architecture |
 | :--- | :-------- | :------------------------ |
 | bun | 236.18 MB | 78.73 MB |
-| uv | 166.08 MB | 55.36 MB |
+| uv | 166.77 MB | 55.59 MB |
 | atuin | 91.37 MB | 30.46 MB |
 | yazi | 60.78 MB | 20.26 MB |
 | lazygit | 53.37 MB | 17.79 MB |
@@ -77,7 +77,7 @@ Learn more: [github.com/basnijholt/dotbins](https://github.com/basnijholt/dotbin
 | eza | 5.06 MB | 2.53 MB |
 | hyperfine | 3.6 MB | 1.2 MB |
 | zoxide | 3.1 MB | 1.03 MB |
-| keychain | 859.39 KB | 286.46 KB |
+| keychain | 874.82 KB | 291.61 KB |
 
 ## 💻 Shell Integration
 
@@ -241,6 +241,6 @@ tools:
 
 ## ℹ️ Additional Information
 
-* This README was automatically generated on Jul 22, 2026
+* This README was automatically generated on Jul 25, 2026
 * Current platform: **macos/arm64**
 * For more information on dotbins, visit https://github.com/basnijholt/dotbins

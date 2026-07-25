@@ -211,22 +211,22 @@
     "url": "https://github.com/sharkdp/hyperfine/releases/download/v1.20.0/hyperfine-v1.20.0-aarch64-apple-darwin.tar.gz"
   },
   "keychain/linux/amd64": {
-    "tag": "3.0.0_beta3",
-    "updated_at": "2026-07-22T13:40:53.840097",
-    "sha256": "8b8d798f9a846e4be834b1d03efeae3035f5dfee56873572be128dde25e9fc16",
-    "url": "https://github.com/danielrobbins/keychain/releases/download/3.0.0_beta3/keychain-3.0.0_beta3.pyz"
+    "tag": "3.0.0",
+    "updated_at": "2026-07-25T13:06:24.936731",
+    "sha256": "a458d5e8e212635e3b057191cb5db9528afe90c719b51466a809f86540dfbb48",
+    "url": "https://github.com/danielrobbins/keychain/releases/download/3.0.0/keychain-3.0.0.pyz"
   },
   "keychain/linux/arm64": {
-    "tag": "3.0.0_beta3",
-    "updated_at": "2026-07-22T13:40:53.851047",
-    "sha256": "8b8d798f9a846e4be834b1d03efeae3035f5dfee56873572be128dde25e9fc16",
-    "url": "https://github.com/danielrobbins/keychain/releases/download/3.0.0_beta3/keychain-3.0.0_beta3.pyz"
+    "tag": "3.0.0",
+    "updated_at": "2026-07-25T13:06:24.957012",
+    "sha256": "a458d5e8e212635e3b057191cb5db9528afe90c719b51466a809f86540dfbb48",
+    "url": "https://github.com/danielrobbins/keychain/releases/download/3.0.0/keychain-3.0.0.pyz"
   },
   "keychain/macos/arm64": {
-    "tag": "3.0.0_beta3",
-    "updated_at": "2026-07-22T13:40:53.853148",
-    "sha256": "8b8d798f9a846e4be834b1d03efeae3035f5dfee56873572be128dde25e9fc16",
-    "url": "https://github.com/danielrobbins/keychain/releases/download/3.0.0_beta3/keychain-3.0.0_beta3.pyz"
+    "tag": "3.0.0",
+    "updated_at": "2026-07-25T13:06:24.994823",
+    "sha256": "a458d5e8e212635e3b057191cb5db9528afe90c719b51466a809f86540dfbb48",
+    "url": "https://github.com/danielrobbins/keychain/releases/download/3.0.0/keychain-3.0.0.pyz"
   },
   "lazygit/linux/amd64": {
     "tag": "v0.63.1",
@@ -301,22 +301,22 @@
     "url": "https://github.com/starship/starship/releases/download/v1.26.0/starship-aarch64-apple-darwin.tar.gz"
   },
   "uv/linux/amd64": {
-    "tag": "0.11.31",
-    "updated_at": "2026-07-22T13:40:54.247515",
-    "sha256": "89048b7e30a6c459fa7e8f2e91cfdc413dc004dcbddc6c2af5e09df123e3246d",
-    "url": "https://github.com/astral-sh/uv/releases/download/0.11.31/uv-x86_64-unknown-linux-musl.tar.gz"
+    "tag": "0.11.32",
+    "updated_at": "2026-07-25T13:06:25.725806",
+    "sha256": "1fd052f196108d87e61fc3d98fe06b4ec758c9a1eb1466a6fd1a436fe45885f2",
+    "url": "https://github.com/astral-sh/uv/releases/download/0.11.32/uv-x86_64-unknown-linux-musl.tar.gz"
   },
   "uv/linux/arm64": {
-    "tag": "0.11.31",
-    "updated_at": "2026-07-22T13:40:54.422445",
-    "sha256": "49cb5ffce40cc9c85355caa8104f7b61c40a8daac7334f4bc841cad1a7bb359e",
-    "url": "https://github.com/astral-sh/uv/releases/download/0.11.31/uv-aarch64-unknown-linux-musl.tar.gz"
+    "tag": "0.11.32",
+    "updated_at": "2026-07-25T13:06:26.354240",
+    "sha256": "d70cdae687feb6aad9a09fe8d686df8c8efaf69a1007fa581379a2025adc10a5",
+    "url": "https://github.com/astral-sh/uv/releases/download/0.11.32/uv-aarch64-unknown-linux-musl.tar.gz"
   },
   "uv/macos/arm64": {
-    "tag": "0.11.31",
-    "updated_at": "2026-07-22T13:40:54.738254",
-    "sha256": "b2b93e82a6786f9c7cb89fd4ca0e859a147b292ae8f6f95784f9742f0efec39e",
-    "url": "https://github.com/astral-sh/uv/releases/download/0.11.31/uv-aarch64-apple-darwin.tar.gz"
+    "tag": "0.11.32",
+    "updated_at": "2026-07-25T13:06:26.991893",
+    "sha256": "ed336d0ba49db8ef89b2b41fffa372ce63bd032f22a56f001c265891aec32829",
+    "url": "https://github.com/astral-sh/uv/releases/download/0.11.32/uv-aarch64-apple-darwin.tar.gz"
   },
   "yazi/linux/amd64": {
     "tag": "v26.5.6",
